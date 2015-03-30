@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Class-Path: gluegen-rt.jar jogl-all.jar gluegen-rt.jar jogl-all.jar jo
+ gl-all.jar gluegen-rt.jar jogl-all-natives-windows-amd64.jar gluegen-
+ rt-natives-windows-amd64.jar
+Main-Class: Program
+

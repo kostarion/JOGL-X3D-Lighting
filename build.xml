@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+ 
+<project name="Demo" default="CreateExecutableJarFileWithExternalLibrary">
+     <target name="CreateExecutableJarFileWithExternalLibrary">
+          <jar destfile="jogl_test.jar">
+               <zipfileset dir="bin" prefix="" />
+               <zipfileset src="gluegen-rt.jar" />
+               <zipfileset src="jogl.jar" />
+               <zipfileset src="swt.jar" />
+               <manifest>
+                    <attribute name="Program" value="Snippet209" />
+               </manifest>
+          </jar>
+     </target>
+</project>

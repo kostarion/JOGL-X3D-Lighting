@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact name="FirstJOGL:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FirstJOGL_jar</output-path>
+    <root id="root">
+      <element id="archive" name="FirstJOGL.jar">
+        <element id="module-output" name="FirstJOGL" />
+      </element>
+      <element id="library" level="project" name="gluegen-rt" />
+      <element id="library" level="application" name="JOGL 2" />
+      <element id="library" level="project" name="lib" />
+    </root>
+  </artifact>
+</component>
